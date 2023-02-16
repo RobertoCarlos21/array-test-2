@@ -1,0 +1,9 @@
+heroes=['spider man','thor','hulk','iron man','captain america']
+Y = len(heroes)
+print(Y)
+heroes.insert(5, 'Black Panther')
+del heroes[5]
+heroes.insert(3, 'Black Panther')
+heroes[1:3] = ['Doctor Strange']
+heroes.sort()
+print(heroes)
